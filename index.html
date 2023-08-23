@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon -->
+	<link rel="icon" href="img/icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+    <!-- Начало: Данный блок удалять нельзя -->
+    <div class="maketforfigma">
+        <a href="https://t.me/s/FigmaToHTML" target="_blank">
+            <img src="img/logo.png">
+        </a>
+        <div>
+            <p>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+            </p>
+            <p>
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+            </p>
+        </div>
+    </div>
+    <!-- Конец -->
+
+    <div class="main">
+        <header class="header">
+            <div class="background"></div>
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="header__link">
+                        <img src="img/icon.png" alt="express logo" class="header__logo">
+                    </a>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a class="header__link">Рассчитать доставку</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link">Дополнительные услуги</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link">Контакты</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__link">Заказать</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__wrap">
+                        <a href="tel:+74952606853" class="header__tel">+7 (495) 260 68 53</a>
+                        <a href="mailto:info@A5-EXPRESS.ru" class="header__mail">info@A5-EXPRESS.ru</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content__main">
+                        <h1 class="content__title">Ночной экспресс</h1>
+                        <p class="content__text content__text_first">
+                            Мы предлагаем доставку сборных грузов из Москвы в Санкт-Петербург на следующий день.
+                        </p>
+                        <p class="content__text">
+                            Принимаем грузы ежедневно <span>до 21:00,</span> выдача на следующий день <span>с 09:00</span>
+                        </p>
+                    </div>
+                    <form action="#" class="content__form">
+                        <div class="content__wrapper">
+                            <img src="img/location.png" alt="location" class="content__img">
+                            <input type="text" class="content__input content__input_long" placeholder="Откуда">
+                            <div class="content__radios">
+                                <label for="from" class="content__label">
+                                    <input type="radio" name="from" class="content__radio">
+                                    От адреса
+                                </label>
+                                <label for="from" class="content__label">
+                                    <input type="radio" name="from" class="content__radio">
+                                    От терминала
+                                </label>
+                            </div>
+                        </div>
+                        <div class="content__wrapper">
+                            <img src="img/weight.png" alt="location" class="content__img">
+                            <input type="number" placeholder="Вес" name="from" class="content__input">
+                            <button class="content__arrow-btn">
+                                <img src="img/arrow.png" alt="arrow up" class="content__img-arrow-up">
+                            </button>
+                            <button class="content__arrow-btn">
+                                <img src="img/arrow.png" alt="arrow down" class="content__img-arrow-down">
+                            </button>
+                        </div>
+                        <div class="content__wrapper">
+                            <img src="img/location.png" alt="location" class="content__img">
+                            <input type="text" placeholder="Куда" name="from" class="content__input content__input_long">
+                            <div class="content__radios">
+                                <label for="to" class="content__label">
+                                    <input type="radio" name="to" class="content__radio">
+                                    До адреса
+                                </label>
+                                <label for="to" class="content__label">
+                                    <input type="radio" name="to" class="content__radio">
+                                    До терминала
+                                </label>
+                            </div>
+                        </div>
+                        <div class="content__wrapper">
+                            <img src="img/weight.png" alt="location" class="content__img">
+                            <input type="number" placeholder="Вес" name="from" class="content__input">
+                            <button class="content__arrow-btn">
+                                <img src="img/arrow.png" alt="arrow up" class="content__img-arrow-up">
+                            </button>
+                            <button class="content__arrow-btn">
+                                <img src="img/arrow.png" alt="arrow down" class="content__img-arrow-down">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="content__wrapping">
+                        <div class="content__wrap">
+                            <p class="content__subtext">Срок доставки:</p>
+                            <p class="content__price">2 дня</p>
+                        </div>
+                        <div class="content__wrap">
+                            <p class="content__subtext">Стоимость доставки:</p>
+                            <p class="content__price">11 000 ₽*</p>
+                        </div>
+                        <button type="submit" class="content__btn">Оформить заказ</button>
+                    </div>
+                    <p class="content__oferta">
+                        *Цена рассчитывается от адреса забора груза до адреса доставки. Не является публичной офертой.
+                    </p>
+                </div>
+            </div>
+        </header>
+        <section class="advantages">
+            <div class="container">
+                <h3 class="advantages__title">Почему именно мы</h3>
+                <p class="advantages__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum suspendisse sed vel a, 
+                    egestas ut tellus est, at. Massa pretium sed lacus sed nibh sed nunc praesent. 
+                    Nulla fermentum, malesuada enim.
+                </p>
+                <div class="advantages__items">
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/location-2.png" class="advantages__img" alt="location icon"/>
+                            <p class="advantages__description">
+                                Заберем и доставим в любую точку города и области
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/garage.png" class="advantages__img" alt="garage icon"/>
+                            <p class="advantages__description">
+                                Собственные терминалы в Москве и Санкт-Петербурге
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/box.png" class="advantages__img" alt="box icon"/>
+                            <p class="advantages__description">
+                                Любые грузы
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/loaded-track.png" class="advantages__img" alt="loaded track icon"/>
+                            <p class="advantages__description">
+                                Отдельный автомобиль
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/calendar.png" class="advantages__img" alt="calendar icon"/>
+                            <p class="advantages__description">
+                                Ежедневные отправки
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/track.png" class="advantages__img" alt="track icon"/>
+                            <p class="advantages__description">
+                                Наличие собственного парка транспортных средств
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/stellar.png" class="advantages__img" alt="stellar icon"/>
+                            <p class="advantages__description">
+                                Спутниковое отслеживание груза
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__wrap">
+                            <img src="./img/hands.png" class="advantages__img" alt="hands icon"/>
+                            <p class="advantages__description">
+                                Передадим адресату «из рук в руки»
+                            </p>
+                        </div>
+                        <div class="advantages__wrapper">
+                            <p class="advantages__hidden-text">
+                                Ваш груз может храниться 3 дня на нашем складе абсолютно бесплатно
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="location">
+            <div class="container">
+                <h3 class="location__title">
+                    Выберите город, в котором требуется
+                    услуга ответственного хранения
+                </h3>
+                <div class="location__wrapper">
+                    <button class="location__tab location__tab_first">Москва</button>
+                    <button class="location__tab location__tab_second">СПб</button>
+                    <button class="location__tab location__tab_third">Тариф на Терминальную обработку грузов и Ответственное хранение</button>
+                </div>
+                <div class="location__wrap">
+                    <div class="location__wrapping">
+                        <p class="location__text">
+                            Такая услуга, как ответственное хранение позволит временно поместить Ваш груз на нашем складе, оплатив только занимаемую площадь. Таким образом, сократив Ваши расходы на логистические услуги.
+                            Вы получите площадь хранения любого нужного размера, с возможностью изменения. Мы возьмём на себя комплектацию, формирование заказов (внутреннюю проверку, маркировку, сортировку, переупаковку и т.п.) и осуществим адресную доставку клиентам.
+                        </p>
+                        <div class="location__box">
+                            <div class="location__item">
+                                <h4 class="location__small-title">Позиция</h4>
+                                <input type="text" placeholder="Пример" class="location__input location__input_first">
+                                <input type="text" placeholder="Пример" class="location__input location__input_first">
+                            </div>
+                            <div class="location__item">
+                                <h4 class="location__small-title">Описание</h4>
+                                <input type="text" placeholder="Пример" class="location__input location__input_first">
+                                <input type="text" placeholder="Пример" class="location__input location__input_first">
+                            </div>
+                            <div class="location__item">
+                                <h4 class="location__small-title">Ед. изм.</h4>
+                                <input type="number" placeholder="Килограмм" class="location__input location__input_second">
+                                <input type="number" placeholder="Килограмм" class="location__input location__input_second">
+                            </div>
+                            <div class="location__item">
+                                <h4 class="location__small-title">Цена, Р</h4>
+                                <input type="number" placeholder="10000" class="location__input  location__input_third">
+                                <input type="number" placeholder="10000" class="location__input  location__input_third">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location__wrapping">
+                        <p class="location__text_second">
+                            Тариф на Терминальную обработку грузов и Ответственное хранение
+                        </p>
+                        <div class="location__download">
+                            <a href="#" class="location__link" download>XML, 35 кб 
+                                <img src="img/download.png" alt="download icon">
+                            </a>
+                        </div>
+                        <p class="location__text_second">
+                            Договор на оказание услуг
+                        </p>
+                        <div class="location__download">
+                            <a href="#" class="location__link" download>XML, 35 кб 
+                                <img src="img/download.png" alt="download icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <img src="img/bg-2.png" alt="tracks" class="about__img about__img_first">
+                    <div class="about__wrap">
+                        <h3 class="about__title">О направлении</h3>
+                        <div class="about__line"></div>
+                        <p class="about__text">
+                            Одно из основных направлений автоперевозок нашей компании - это доставка грузов по маршруту из Москвы в Санкт-Петербург, а также из Санкт-Петербурга в Москву.
+                        </p>
+                        <p class="about__text">
+                            Благодаря наличию собственного автотранспорта и четко выстроенной схеме движения, мы доставим Ваш груз между столицами на следующий день до нашего склада или адреса получателя. Все машины оборудованы инновационными системами навигации, что дает возможность отслеживать груз во время всей перевозки.
+                        </p>
+                        <p class="about__text">
+                            Доставка грузов по данному маршруту осуществляется ежедневно. Мы выполняем доставку «Москва ⇄ Санкт-Петербург» как в составе сборного груза, так и индивидуальным автотранспортом.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__wrapper about__wrapper_second">
+                    <div class="about__wrap">
+                        <h3 class="about__title">Основные требования к упаковке груза</h3>
+                        <div class="about__line"></div>
+                        <p class="about__text">
+                            Чтобы защитить груз от механических повреждений во время перевозки и доставить груз получателю в первоначальном виде:<br>
+                            •Груз должен быть упакован, без доступа к содержимому<br>
+                            •Поверхность упаковки груза должна быть чистой<br>
+                            •Упаковка, содержащая заостренные углы и выступы, а так же, не стандартные размеры, допускается к перевозке после дополнительного согласования с сотрудником нашей компании, принявшим заявку.
+                        </p>
+                        <p class="about__text">
+                            Вы можете доверить подбор подходящей упаковки для вашего груза нашим специалистам!
+                        </p>
+                        <p class="about__text">
+                            Мы учтем все нюансы и обеспечим отправку вашего заказа точно в указанное время, гарантируя полную сохранность груза и оперативность!
+                        </p>
+                    </div>
+                    <div class="about__images">
+                        <img src="img/bg-3/people.png" alt="tracks" class="about__img_people">
+                        <img src="img/bg-3/box-1.png" alt="box" class="about__img_box-1">
+                        <img src="img/bg-3/box-2.png" alt="box" class="about__img_box-2">
+                        <img src="img/bg-3/box-3.png" alt="box" class="about__img_box-3">
+                        <img src="img/bg-3/box-4.png" alt="box" class="about__img_box-4">
+                        <img src="img/bg-3/woman.png" alt="woman" class="about__img_woman">
+                        <img src="img/bg-3/chair.png" alt="chair" class="about__img_chair">
+                    </div>
+                </div>
+                <div class="about__wrapper about__wrapper_third">
+                    <img src="img/bg-3.png" alt="tracks" class="about__img">
+                    <div class="about__wrap">
+                        <h3 class="about__title">Дополнительные услуги</h3>
+                        <div class="about__line"></div>
+                        <p class="about__text">
+                            Доставка от адреса и до адреса (из рук в руки)<br>
+                            Отдельный автомобиль специально под Ваш груз<br>
+                            Доставка по России<br>
+                            Такелажные услуги<br>
+                            Складские услуги. Ответственное хранение груза<br>
+                            Упаковка, обрешетка груза<br>
+                            Оформление документов
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <h3 class="form__title">Название заголовка</h3>
+                <form action="#" class="form__main">
+                    <div class="form__wrapper form__wrapper_first">
+                        <div class="form__wrap">
+                            <input type="text" class="form__input" placeholder="Плательщик*" required>
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                            <div class="form__radio">
+                                <label for="first" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="first">
+                                    От адреса
+                                </label>
+                                <label for="first" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="first">
+                                    От терминала
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__wrap">
+                            <input type="email" class="form__input" placeholder="E-mail*" required>
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                        </div>
+                        <div class="form__wrap">
+                            <input type="tel" class="form__input" placeholder="Телефон*" required>
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                        </div>
+                        <div class="form__wrap">
+                            <input type="text" class="form__input" placeholder="Контактное лицо*" required>
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                            <div class="form__radio">
+                                <label for="second" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="second">
+                                    От адреса
+                                </label>
+                                <label for="second" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="second">
+                                    От терминала
+                                </label>
+                                <label for="second" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="second">
+                                    Указать реквизиты (для договоров)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__wrap">
+                            <input type="number" class="form__input" placeholder="Серия и номер телефона*" required>
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                        </div>
+                        <div class="form__wrap">
+                            <input type="text" class="form__input" placeholder="Наименование груза">
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                            <div class="form__radio">
+                                <div class="form__additional-wrap">
+                                    <label for="third" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="third">
+                                        Россыпь
+                                    </label>
+                                    <label for="third" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="third">
+                                        Хрупкий
+                                    </label>
+                                    <label for="third" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="third">
+                                        Тяжеловес
+                                    </label>
+                                    <label for="third" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="third">
+                                        Страхование
+                                    </label>
+                                </div>
+                                <div class="form__additional-wrap">
+                                    <label for="fourth" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="fourth">
+                                        Негабарит
+                                    </label>
+                                    <label for="fourth" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="fourth">
+                                        Паллет
+                                    </label>
+                                    <label for="fourth" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="fourth">
+                                        Опасный
+                                    </label>
+                                    <label for="fourth" class="form__check"> 
+                                        <input type="radio" class="form__input-radio" name="fourth">
+                                        Жест. упаковка
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__wrap form__wrap_short">
+                            <input type="number" placeholder="Мест" class="form__input form__input_short">
+                            <input type="number" placeholder="Вес, кг" class="form__input form__input_short">
+                            <input type="number" placeholder="Объем, м3" class="form__input form__input_short">
+                        </div>
+                        <div class="form__wrap">
+                            <input type="number" class="form__input" placeholder="Объявленная стоимость (страхования)">
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                        </div>
+                        <p class="form__text">* обязательные поля</p>
+                    </div>
+                    <div class="form__wrapper form__wrapper_second">
+                        <div class="form__additional-wrapper">
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Отправитель*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                                <label for="fifth" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="fifth">
+                                    Выставить по плательщику
+                                </label>
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Пункт отправления*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                                <label for="sixth" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="sixth">
+                                    Выставить по плательщику
+                                </label>
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Адрес подачи автомобиля">
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                            <div class="form__wrap">
+                                <input type="tel" class="form__input" placeholder="Телефон*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Контактное лицо*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                        </div>
+                        <div class="form__additional-wrapper">
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Получатель*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                                <label for="seventh" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="seventh">
+                                    Выставить по плательщику
+                                </label>
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Пункт назначения*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                                <label for="eighth" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="eighth">
+                                    Выставить по плательщику
+                                </label>
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Адрес доставки">
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                            <div class="form__wrap">
+                                <input type="tel" class="form__input" placeholder="Телефон*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                            <div class="form__wrap">
+                                <input type="text" class="form__input" placeholder="Контактное лицо*" required>
+                                <img src="img/location.png" alt="location icon" class="form__img">
+                            </div>
+                        </div>
+                        <div class="form__additional-wrapper">
+                            <textarea class="form__textarea" placeholder="Дополнительная информация">Дополнительная информация
+                            </textarea>
+                            <img src="img/location.png" alt="location icon" class="form__img form__img-textarea">
+                            <div class="form__wrapper form__wrapper-labels">
+                                <label for="ninth" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="ninth">
+                                    Авто
+                                </label>
+                                <label for="ninth" class="form__check">
+                                    <input type="radio" class="form__input-radio" name="ninth">
+                                    Ж/Д
+                                </label>
+                                <label for="ninth" class="form__check"> 
+                                    <input type="radio" class="form__input-radio" name="ninth">
+                                    Авиа
+                                </label>
+                                <label for="ninth" class="form__check">
+                                    <input type="radio" class="form__input-radio" name="ninth">
+                                    Согласовать
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__wrap">
+                            <input type="text" class="form__input" placeholder="Город оплаты">
+                            <img src="img/location.png" alt="location icon" class="form__img">
+                            <button class="form__arrow-btn">
+                                <img src="img/arrow.png" alt="arrow down icon" class="form__img form__img-arrow">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form__additional-new-wrap">
+                    <button type="submit" class="form__btn">Отправить заявку</button>
+                    <label for="data" class="form__data">
+                        <input type="radio" class="form__radio">
+                        Нажимая на кнопку "Оправить заявку", вы даете согласие на обработку персональных данных в соответствии с Политикой конфиденциальности
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__wrapper">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c360c721ffaf2da5644891371158619ef87f75a8ea57d4c586af0909ca3ea52&amp;width=570&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <div class="contacts__wrap">
+                        <h3 class="contacts__title">Контакты</h3>
+                        <div class="contacts__wraps">
+                            <p class="contacts__city">Москва</p>
+                            <div class="contacts__wrapping">
+                                <p class="contacts__address">ул. Иловайская, дом 3, строение 18,
+                                    Складской комплекс «Деметра».
+                                </p>
+                                <a href="tel:+74952606853" class="contacts__tel">+7 (495) 260-68-53</a>
+                            </div>
+                        </div>
+                        <div class="contacts__wraps">
+                            <p class="contacts__city">Томилино, Мос. область</p>
+                            <div class="contacts__wrapping">
+                                <p class="contacts__address">мкр. Птицефабрика,
+                                    Транспортно -
+                                    Логистический парк «Томилино»,
+                                    стр. 42.
+                                </p>
+                                <a href="tel:+74952606853" class="contacts__tel">+7 (495) 260-68-53,</a>
+                                <a href="tel:+74959255535" class="contacts__tel">+7 (495) 925-55-35</a>
+                            </div>
+                        </div>
+                        <div class="contacts__wraps">
+                            <p class="contacts__city">Санкт-Петербург</p>
+                            <div class="contacts__wrapping">
+                                <p class="contacts__address">ул. Софийская, 101, лит Е.</p>
+                                <a href="tel:+78125656853" class="contacts__tel">+7 (812) 565-68-53</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="blue-background">
+            <div class="blue-background__wave"></div>
+            <div class="blue-background__rectangle"></div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <p class="footer__text">© 2021 А5 ЭКСПРЕСС</p>
+                    <img src="./img/icon.png" alt="logo">
+                    <div class="footer__wrap">
+                        <a href="#" class="footer__link">
+                            <img src="img/gryphon.png" alt="gryphon" class="footer__img">
+                        </a>
+                        <p class="footer__second-text">Разработка и поддержка сайтов</p>
+                    </div>
+                </div>
+                <p class="footer__third-text">Сайт является объектом авторского права. Без согласия правообладателя копирование запрещено.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
